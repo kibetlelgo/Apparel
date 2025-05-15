@@ -11,3 +11,7 @@ def products(request):
     product = Product.objects.all()
     serializer = ProductSerializer(products, many=True)
     return Response(serializer.data)
+
+
+def category():
+    pass
