@@ -15,3 +15,4 @@ def products(request):
 
 def category():
     pass
+    pass
